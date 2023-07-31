@@ -1,0 +1,28 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@unocss/reset": "^0.54.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vueuse/components": "^10.3.0",
+    "@vueuse/core": "^10.3.0",
+    "js-confetti": "^0.11.0",
+    "naive-ui": "^2.34.4",
+    "unocss": "^0.54.0",
+    "unplugin-vue-router": "^0.6.4",
+    "vite": "^4.4.5",
+    "vite-plugin-use-modules": "^1.4.5",
+    "vue-dark-switch": "^1.0.3",
+    "vue-router": "^4.2.4"
+  }
+}
