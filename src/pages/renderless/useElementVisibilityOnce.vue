@@ -1,6 +1,6 @@
 <script setup>
-import UseElementVisibilityOnce from "../../components/renderless/useElementVisibilityOnce.vue"
 import { NNumberAnimation } from "naive-ui"
+import UseElementVisibilityOnce from "../../components/renderless/useElementVisibilityOnce.vue"
 </script>
 
 <template>

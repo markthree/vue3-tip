@@ -1,17 +1,12 @@
 <script setup>
-import { ref, watch } from "vue";
+import { ref } from "vue";
 import { NButton } from "naive-ui";
 import Modal from "../components/ui/modal.vue"
+import { useVisibale } from "../composables/visiable"
 
 const count = ref(0)
 
-const modalVisibale = ref(false)
-
-watch(count, c => {
-    if (c % 5 === 0) {
-        modalVisibale.value = true
-    }
-})
+const modalVisibale = useVisibale(() => count.value % 5 === 0)
 </script>
 
 <template>
