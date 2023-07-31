@@ -1,9 +1,9 @@
 import { ref, toValue, watchEffect } from "vue";
 
-export function useVisibale(switchRef = false) {
-  const visibale = ref();
+export function useVisible(switchRef = false) {
+  const visible = ref();
   watchEffect(() => {
-    visibale.value = toValue(switchRef);
+    visible.value = toValue(switchRef);
   });
-  return visibale;
+  return visible;
 }
